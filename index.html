@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<meta charset="UTF-8">
+<title>Test</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="card">
+          <div class="card-header">                   
+            Chat
+          </div>
+          <div class="card-body">
+            <div class="input-group-prepend">
+                <textarea id="textAreaChat" class="input-group-text form-control" rows="10" readonly></textarea>
+            </div>
+            <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">Message></span>
+                </div>
+                <input id="messageBar" class="form-control" placeholder="Entrez votre message">
+              </div>
+              <div class="mb-2"></div>
+            <button type="button" id="buttonSend" class="btn btn-success " style="float: right;float: bottom"><i class="fas fa-paper-plane"></i>Envoyer</button>
+          </div>
+        </div>
+        <br>
+    </div>
+    <script src="chatClient.js"></script>
+</body>
+</html>
